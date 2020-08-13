@@ -1,0 +1,84 @@
+#container{
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+h1{
+    padding: 10px 20px;
+    margin:0;
+    background-color:rgb(220, 20, 60);
+    font-size:24px;
+    font-weight: normal;
+    text-decoration: uppercase;
+}
+
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    color: #666;
+}
+
+li:nth-child(2n){
+    background-color:rgba(253, 245, 230, 1.0);
+}
+
+body{
+    font-family: roboto;
+    background:url(https://lh3.googleusercontent.com/proxy/V5bpa4JtgzzqBJmJFBlcETl0lKVVuQ1t7gHYDOTi47zTUqp04TrUjGHUe8TkmG2YLaGrvm7FIdoqaqRq7zSGpv0kw7JST10uu_fQqAxEHjMQrTFV42rohR8_RqmvYXySwSG8pA=w3840-h2160-p-k-no-nd-mv);
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+}
+
+span{
+    background-color: rgb(240, 128, 128);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    transition: 200ms linear ;
+    margin-right: 20px;
+    width: 0;
+    padding: 12 0;
+}
+
+li:hover span{
+    opacity: 1.0;
+    width: 40px;
+
+}
+
+
+input{
+    font-size: 18px;
+    background-color: rgb(253, 245, 230);
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+input:focus{
+    background-color: white;
+    border: 2px solid #2980b9;
+
+}
+
+.fa-plus{
+color: darkred;
+float:right;
+}
